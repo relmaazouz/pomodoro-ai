@@ -124,7 +124,7 @@ cython_debug/
 environment.yml  
 
 # Package and dependency files
-pyproject.toml 
+#pyproject.toml 
 
 # Audio directories
 audio/

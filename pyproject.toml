@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pomodoro-ai"
+version = "0.1.0"
+description = ""
+authors = ["Alex G <alex@pwrd.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cryptography = "42.0.5"
+numpy = "1.26.4"
+openai = "1.25.0"
+sounddevice = "0.4.6"
+soundfile = "0.12.1"
+webrtcvad = "2.0.10"
+pyaudio = "0.2.14"
+mss = "9.0.1"
+pillow = "10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
